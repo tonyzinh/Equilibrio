@@ -1,6 +1,7 @@
+import api from './axiosConfig.js';
+
 (function ($) {
     "use strict";
-
     // Spinner
     var spinner = function () {
         setTimeout(function () {
@@ -169,3 +170,18 @@ var loadFile = function(event) {
     var image = document.getElementById('profileImage');
     image.src = URL.createObjectURL(event.target.files[0]);
 };
+
+async function sendData() {
+    try {
+        console.log('Enviando dados...');
+      const data = {
+      "email": "kleber@fake.com",
+      "senha": "senha123",
+  };
+      const response = await api.post('https://integrador2-production.up.railway.app/api/auth/login', data);
+      console.log('Dados enviados:', response.data);
+    } catch (error) {
+      console.error('Erro ao enviar dados:', error);
+    }
+  }
+  sendData();
