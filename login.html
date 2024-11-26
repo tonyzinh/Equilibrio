@@ -1,58 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Equillibrio</title>
-    <link rel="shortcut icon" href="img/Logo Branca.svg" type="image/x-icon">
-    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
-    <link rel="stylesheet" href="forms/css/login.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Equillibrio</title>
+  <link rel="shortcut icon" href="img/Logo Branca.svg" type="image/x-icon">
+  <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="forms/css/login.css">
 </head>
+
 <body>
-    <div class="main">
-        <section class="sign-in">
-            <div class="container">
-                <div class="signin-content">
-                    <div class="signin-image">
-                        <figure><img src="/forms/images/day 19.gif" alt="sing up image" class="image-link"></figure>
-                        <a href="registro.html" class="signup-image-link">Criar sua Conta</a>
-                    </div>
-                    <div class="signin-form">
-                        <h2 class="form-title">Login</h2>
-                        <form method="POST" class="register-form" id="register">
-                            <div id="response" class="response"></div>
-                            <div class="form-group">
-                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input type="text" id="email" placeholder="Digite seu E-mail"/>
-                            </div>
-                            <div class="form-group">
-                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" id="senha" placeholder="Senha"/>
-                            </div>
-                            <div class="form-group">
-                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
-                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Lembrar Senha</label>
-                            </div>
-                            <div class="form-group form-button">
-                                <button onclick="sendData(); return false" class="form-submit" id="btnLogar">Login</button>
-                            </div>
-                        </form>
-                        <div class="social-login">
-                            <span class="social-label">Fazer login com</span>
-                            <ul class="socials">
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+  <div class="main">
+    <section class="sign-in">
+      <div class="container">
+        <div class="signin-content">
+          <div class="signin-image">
+            <figure><img src="/forms/images/day 19.gif" alt="sing up image" class="image-link"></figure>
+            <a href="registro.html" class="signup-image-link">Criar sua Conta</a>
+          </div>
+          <div class="signin-form">
+            <h2 class="form-title">Login</h2>
+            <form method="POST" class="register-form" id="register">
+              <div id="response" class="response"></div>
+              <div class="form-group">
+                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                <input type="text" id="email" placeholder="Digite seu E-mail" />
+              </div>
+              <div class="form-group">
+                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                <input type="password" id="senha" placeholder="Senha" />
+              </div>
+              <div class="form-group">
+                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                <label for="remember-me" class="label-agree-term"><span><span></span></span>Lembrar Senha</label>
+              </div>
+              <div class="form-group form-button">
+                <button onclick="loginBtn(); return false" class="form-submit" id="btnLogar">Login</button>
+              </div>
+            </form>
+            <div class="social-login">
+              <span class="social-label">Fazer login com</span>
+              <ul class="socials">
+                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+              </ul>
             </div>
-        </section>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="forms/vendor/jquery/jquery.min.js"></script>
-    <script src="js/main.js"></script>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="forms/vendor/jquery/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="/js/login.js"></script>
 </body>
+
 </html>
