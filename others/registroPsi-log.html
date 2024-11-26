@@ -42,7 +42,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
             <a href="home.html" class="navbar-brand p-0">
-                <img src="./img/Logo Preta.svg" alt="Equillibrio Logo">
+                <img src="/img/Logo Preta.svg" alt="Equillibrio Logo">
                 <!-- <img src="img/logo.png" alt="Logo"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -74,9 +74,10 @@
                     <div class="modal-body text-center">
                         <img src="/img/verificado.png" alt="">
                         <p>Informações enviadas com sucesso! Em breve retornaremos no seu email.</p>
+                        <div id="response" class="response"></div>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-primary text-white" data-bs-dismiss="modal" onclick="redirectToRegistroPsi2()">Fechar</button>
+                        <button type="button" class="btn btn-primary text-white" data-bs-dismiss="modal" onclick="redirectToRegistroPsi()">Fechar</button>
                     </div>
                 </div>
             </div>
@@ -100,27 +101,27 @@
                     <div class="row mb-4">
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
-                                <input class="form-control" id="inputFirstName" type="text" placeholder="Nome" required />
-                                <label for="inputFirstName">Nome</label>
+                                <input class="form-control" id="nome" type="text" placeholder="Nome" required />
+                                <label for="inputFirstName">Nome Completo</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
-                                <input class="form-control" id="inputLastName" type="text" placeholder="Sobrenome" required />
-                                <label for="inputLastName">Sobrenome</label>
+                                <input class="form-control" id="crp" type="text" placeholder="Sobrenome" required />
+                                <label for="inputLastName">CRP</label>
                             </div>
                         </div>
                     </div>
                     <div class="row mb-4">
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
-                                <input class="form-control" id="inputCrp" type="text" placeholder="CRP" required />
-                                <label for="inputCrp">CRP</label>
+                                <input class="form-control" id="telefone" type="text" placeholder="CRP" required />
+                                <label for="inputCrp">Telefone</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
-                                <input class="form-control" id="inputEmail" type="email" placeholder="Email" required />
+                                <input class="form-control" id="email" type="email" placeholder="Email" required />
                                 <label for="inputEmail">Email</label>
                             </div>
                         </div>
@@ -128,23 +129,23 @@
                     <div class="row mb-4">
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
-                                <input class="form-control" id="inputSpecialty" type="text" placeholder="Especialidade" required />
+                                <input class="form-control" id="especialidade" type="text" placeholder="Especialidade" required />
                                 <label for="inputSpecialty">Especialidade</label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="form-floating mb-4">
-                                <input class="form-control" id="inputSocialMedia" type="text" placeholder="Redes Sociais" required />
-                                <label for="inputSocialMedia">Redes Sociais</label>
+                                <input class="form-control" id="linkedin" type="text" placeholder="Redes Sociais" required />
+                                <label for="inputSocialMedia">Linkedin</label>
                             </div>
                         </div>
                     </div>
                     <div class="form-floating mb-4">
-                        <textarea class="form-control" id="inputDescription" placeholder="Descrição" style="height: 100px;" required></textarea>
+                        <textarea class="form-control" id="descrição" placeholder="Descrição" style="height: 100px;" required></textarea>
                         <label for="inputDescription">Descrição</label>
                     </div>
                     <div class="d-grid">
-                        <button class="btn btn-primary" type="submit">Enviar Informações</button>
+                        <button class="btn btn-primary text-white" onclick="enviar2()" type="submit">Enviar Informações</button>
                     </div>
                 </form>
             </div>
@@ -208,7 +209,7 @@
     <!-- Copyright End -->
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a> 
 
     
     <!-- JavaScript Libraries -->
@@ -222,6 +223,7 @@
 
     <!-- Template Javascript -->
     <script src="/js/main.js"></script>
+    <script src="/js/psi.js"></script>
     
 </body>
 <script>

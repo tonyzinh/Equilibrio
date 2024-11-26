@@ -129,7 +129,7 @@
 
 // Modal
 $(document).ready(function () {
-  $('.btn-primary').on('click', function () {
+  $('.btn-primary5').on('click', function () {
     $('#appointmentModal').modal('show');
   });
 });
@@ -170,17 +170,3 @@ var loadFile = function (event) {
   image.src = URL.createObjectURL(event.target.files[0]);
 };
 
-async function sendData() {
-  try {
-    console.log('Enviando dados...');
-    const data = {
-      "email": "kleber@fake.com",
-      "senha": "senha123",
-    };
-    const response = await api.post('https://integrador2-production.up.railway.app/api/auth/login', data);
-    console.log('Dados enviados:', response.data);
-  } catch (error) {
-    console.error('Erro ao enviar dados:', error);
-  }
-}
-sendData();
