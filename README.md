@@ -66,6 +66,14 @@ We thank the following people who contributed to this project:
         </sub>
       </a>
     </td>
+          <td align="center">
+      <a href="#" title="Yasmin Sousa">
+        <img src="https://avatars.githubusercontent.com/u/105466766?v=4" width="100px;" alt="Foto do Will OIiveira no GitHub"/><br>
+        <sub>
+          <b>Will OIiveira</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
 
