@@ -52,7 +52,7 @@ We thank the following people who contributed to this project:
     </td>
         <td align="center">
       <a href="#" title="Yasmin Neumann">
-        <img src="https://avatars.githubusercontent.com/u/136760513?v=4" width="100px;" alt="Foto do Yasmin Neumann no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/136760513?v=4" width="100px;" alt="Foto da Yasmin Neumann no GitHub"/><br>
         <sub>
           <b>Yasmin Neumann</b>
         </sub>
@@ -68,9 +68,25 @@ We thank the following people who contributed to this project:
     </td>
           <td align="center">
       <a href="#" title="Yasmin Sousa">
-        <img src="https://avatars.githubusercontent.com/u/105466766?v=4" width="100px;" alt="Foto do Will OIiveira no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/136632566?v=4" width="100px;" alt="Foto da Yasmin Sousa no GitHub"/><br>
         <sub>
-          <b>Will OIiveira</b>
+          <b>Yasmin Sousa</b>
+        </sub>
+      </a>
+    </td>
+      <td align="center">
+      <a href="#" title="Eve Chalabi">
+        <img src="https://avatars.githubusercontent.com/u/151252516?v=4" width="100px;" alt="Foto da Eve Chalabi no GitHub"/><br>
+        <sub>
+          <b>Eve Chalabi</b>
+        </sub>
+      </a>
+    </td>
+      <td align="center">
+      <a href="#" title="Catharina Alves">
+        <img src="https://avatars.githubusercontent.com/u/113545891?v=4" width="100px;" alt="Foto da Catharina Alves no GitHub"/><br>
+        <sub>
+          <b>Catharina Alves</b>
         </sub>
       </a>
     </td>
