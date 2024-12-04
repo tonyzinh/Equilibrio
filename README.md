@@ -1,6 +1,10 @@
-# Equillibrio
+# Equilibrio 
 
-O **Equillibrio** é uma plataforma dedicada à realização de consultas e avaliações psicológicas, tanto online quanto presenciais. Nosso foco é garantir um ambiente seguro e confidencial para que psicólogos e clientes possam interagir com confiança e conforto.
+<img src="imagem.png" alt="Exemplo imagem">
+
+Equilibrio is a project developed for the psychology area, with the aim of facilitating online appointment scheduling, offering support to clients through psychological questionnaires and providing up-to-date information on the latest news and research in psychology, both in Brazil and around the world. .
+
+In addition to providing an accessible and safe digital environment for scheduling sessions with specialized psychologists, Equilibrio also seeks to promote mental health, providing tools that help professionals and patients monitor their emotional development. The platform also has educational resources, such as articles, news and tips on psychological care, helping to demystify issues related to mental health and encouraging psychological well-being.
 
 ## 💬 Funcionalidades
 
@@ -9,70 +13,62 @@ O **Equillibrio** é uma plataforma dedicada à realização de consultas e aval
 - **Avaliações psicológicas**: Realize avaliações profissionais com psicólogos licenciados.
 - **Confidencialidade garantida**: Somente você e o psicólogo têm acesso às informações da sessão. Nenhuma sessão é gravada, garantindo a privacidade total.
 
-### Ajustes e melhorias
+## 🚀 Technologies
 
-O projeto ainda está em desenvolvimento, e as próximas atualizações estarão focadas nas seguintes tarefas:
+This project was developed with the following technologies:
 
-- [x] Implementação inicial da calculadora de honorários.
-- [x] Suporte para operações mais complexas na agenda.
-- [ ] Implementar validação de entrada em formulários.
-- [ ] Adicionar um tema claro e escuro para a interface do usuário.
+<p align="left">
+  <img height="40" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/HTML.svg" />
+  <img height="40" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/CSS.svg" />
+  <img height="40" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Sass.svg" />
+  <img height="40" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Bootstrap.svg" />
+  <img height="40" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/JavaScript.svg" />
+  <img height="40" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Java-Light.svg" />
+  <img height="40" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/Spring-Light.svg" />
+  <img height="40" width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/65dea6c4eaca7da319e552c09f4cf5a9a8dab2c8/icons/MySQL-Light.svg" />
+</p>
 
-## ☕ Usando <Projeto-Integrador-II>
+## 🤝 Developers
 
-Para usar <Projeto-Integrador-II>, siga estas etapas:
+We thank the following people who contributed to this project:
 
-```
-Para usar o site, siga estas etapas:
-
-Abra o terminal ou prompt de comando.
-Navegue até o diretório onde o projeto foi clonado.
-Execute o comando npm start para iniciar o servidor de desenvolvimento.
-Abra seu navegador e vá para http://localhost:3000.
-```
-
-Você agora pode interagir com o site através da interface do navegador.
-
-## 📫 Contribuindo para <Projeto-Integrador-II>
-
-Para contribuir com <Projeto-Integrador-II>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <main>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <Projeto-Integrador-II>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## 🤝 Colaboradores
-
-Agradecemos às seguintes pessoas que contribuíram para este projeto:
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/181393325?v=4" width="100px;" alt="Foto do Tonyzin no GitHub"/><br>
+      <a href="#" title="Entony Jovino">
+        <img src="https://avatars.githubusercontent.com/u/181393325?v=4" width="100px;" alt="Foto do Entony Jovino no GitHub"/><br>
         <sub>
-          <b>Entony Jovino</b><br/>
+          <b>Entony Jovino</b>
         </sub>
       </a>
-    </td><br/>
-    <td align="center">
-      <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/95584209?s=400&u=5955222de40126211aa2b50c07341f5e5290a970&v=4" width="100px;" alt="Foto do Raphael Simões Gomes no GitHub"/><br>
+    </td>
+      <td align="center">
+      <a href="#" title="Raphael Simões">
+        <img src="https://avatars.githubusercontent.com/u/95584209?v=4" width="100px;" alt="Foto do Raphael Simões no GitHub"/><br>
         <sub>
-          <b>Raphael Simões G.</b><br/>
+          <b>Raphael Simões</b>
         </sub>
       </a>
-    </td><br/>
-    <td align="center">
-      <a href="#" title="defina o titulo do link">
-        <img src="https://avatars.githubusercontent.com/u/136760513?v=4" width="100px;" alt="Foto do Yasmin Neuman no GitHub"/><br>
+    </td>
+        <td align="center">
+      <a href="#" title="Yasmin Neumann">
+        <img src="https://avatars.githubusercontent.com/u/136760513?v=4" width="100px;" alt="Foto do Yasmin Neumann no GitHub"/><br>
         <sub>
-          <b>Yasmin Neumann</b><br/>
+          <b>Yasmin Neumann</b>
         </sub>
       </a>
-    </td><br/>
+    </td>
+      <td align="center">
+      <a href="#" title="Will OIiveira">
+        <img src="https://avatars.githubusercontent.com/u/105466766?v=4" width="100px;" alt="Foto do Will OIiveira no GitHub"/><br>
+        <sub>
+          <b>Will OIiveira</b>
+        </sub>
+      </a>
+    </td>
   </tr>
 </table>
+
+## 📝 License
+
+This project is under license. See the [LICENSE](LICENSE.md) file for more details.
